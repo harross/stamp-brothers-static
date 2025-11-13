@@ -7,13 +7,14 @@ function sleep(milliseconds) {
   }
 }
 
+// Faded headings (only in use on home)
 document.addEventListener("DOMContentLoaded", () => {
   const heroHeadings = document.querySelectorAll(".hero-heading");
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) { 
-        entry.target.classList.add("fadeInFromTop"); // your fade effect
+        entry.target.classList.add("fadeInFromTop"); 
         setTimeout(() => {
             entry.target.classList.add("active");
         }, 800);
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   heroHeadings.forEach(h => observer.observe(h));
 });
 
-
+// Hero content fade in (not really in use)
 document.addEventListener("DOMContentLoaded", () => {
     const heroHeading = document.querySelectorAll(".hero-content");
 
@@ -42,6 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     heroHeading.forEach(heroHeading => observer.observe(heroHeading));
 })
 
+// Service Card Fade in Left
 document.addEventListener("DOMContentLoaded", () => {
     const heroHeading = document.querySelectorAll(".service-card-left");
 
@@ -57,6 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     heroHeading.forEach(heroHeading => observer.observe(heroHeading));
 })
 
+// Service Card Fade in Right
 document.addEventListener("DOMContentLoaded", () => {
     const heroHeading = document.querySelectorAll(".service-card-right");
 
