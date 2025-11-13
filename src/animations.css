@@ -87,3 +87,9 @@
 .glowing-button {
     box-shadow: 0 10px 30px black;
 }
+
+/* needed for menu */
+.remove-scrolling { 
+  height: 100%; 
+  overflow: hidden; 
+} 
