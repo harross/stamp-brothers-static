@@ -13,7 +13,8 @@ Mobile:
 
 Desktop:
 
-<img width="2558" height="1279" alt="image" src="https://github.com/user-attachments/assets/107403a1-211e-4456-8666-f82cb2b2dced" />
+<img src="https://github.com/harross/stamp-brothers-static/blob/master/images/2026-02-1411-56-08-ezgif.com-video-to-gif-converter.gif" />
+
 
 
 
