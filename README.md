@@ -1,4 +1,4 @@
-# Stamp Brothers - The Website
+# Stamp Brothers - A Static Tailwind Site
 
 A basic, static, mobile first website built with tailwindcss built as a learning experience.
 
