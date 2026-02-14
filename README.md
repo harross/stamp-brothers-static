@@ -2,8 +2,10 @@
 
 A basic, static, mobile first website built with tailwindcss built as a learning experience.
 
-I built this site with Tailwind + HTML for a business, and it is in use as a live production site, successfully garnering contracts & business. 
+I built this site for a local business, and it is in use as a live production site, successfully garnering contracts & business. 
 It is great to see my first attempt have some success.
+
+You can visit the real site at - https://stampbrothers.co.uk
 
 My other Tailwind websites will continue to be added as I build them, which I hope will be more often.
 
