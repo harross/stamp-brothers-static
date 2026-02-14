@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block common junk folders (adjust if you don’t have these)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Sitemap reference
+Sitemap: https://stampbrothers.co.uk/sitemap.xml

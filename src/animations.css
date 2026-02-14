@@ -1,0 +1,89 @@
+@keyframes fadeInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInFromTop {
+    opacity: 0;
+    animation: fadeInFromTop 0.8s ease-out forwards;
+}
+
+@keyframes fadeInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInFromBottom {
+    opacity: 0;
+    animation: fadeInFromBottom 0.8s ease-in forwards;
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInFromLeft {
+    opacity: 0;
+    animation: fadeInFromLeft 0.6s ease-in forwards;
+}
+
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInFromRight {
+    opacity: 0;
+    animation: fadeInFromRight 0.6s ease-in forwards;
+}
+
+/* Underline Animation */ 
+.underline-animation {
+  position: relative;
+  display: inline-block; /* keeps underline aligned with text */
+}
+
+.underline-animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0; /* start hidden */
+  height: 2px;
+  background-color: white;
+  transition: width 0.4s ease-out;
+}
+
+/* When active, expand underline */
+.underline-animation.active::after {
+  width: 100%;
+}
+
+.glowing-button {
+    box-shadow: 0 10px 30px black;
+}
